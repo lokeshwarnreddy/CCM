@@ -191,7 +191,7 @@ For questions or help, contact the project maintainer.
 
 ---
 
-## 📁 Detailed Structure: Components, Pages, and Styles
+## Detailed Structure: Components, Pages, and Styles
 
 ### 1. Components (`src/components/`)
 Reusable UI blocks used across pages. Each component often has a matching CSS file in `src/styles/`.

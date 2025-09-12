@@ -12,7 +12,7 @@ const ContactSection = () => {
     message: '',
   });
 
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
