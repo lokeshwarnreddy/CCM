@@ -17,7 +17,7 @@ const pageData = {
   heroImage: '/images/behavioral.jpg',
   hero: {
     headline: 'Behavioral Health',
-    subheading: 'Seamlessly embed mental health screening, therapy coordination, and ongoing support into your primary care workflow—so patients receive whole‑person care without extra referrals or handoffs.',
+    subheading: 'Seamlessly embed mental health screening, therapy coordination, and ongoing support into your primary care workflow—so patients receive whole-person care without extra referrals or handoffs.',
   },
   sections: [
     {
@@ -31,7 +31,7 @@ const pageData = {
       text: 'Our collaborative care team works together to provide comprehensive, whole-person care. By combining the expertise of primary care providers, therapists, and psychiatrists, we can address the full spectrum of a patient\'s needs, from managing chronic conditions to treating mental health concerns.'
     }
   ],
-  intro: 'Our integrated model brings licensed therapists, digital self‑management tools, and psychiatry consults directly into your practice. By uniting behavioral health specialists with your primary care team, we catch issues early, normalize mental health conversations, and close care gaps. Enhance patient well‑being, boost adherence, and unlock new revenue streams—all through one cohesive platform.',
+  intro: 'Our integrated model brings licensed therapists, digital self-management tools, and psychiatry consults directly into your practice. By uniting behavioral health specialists with your primary care team, we catch issues early, normalize mental health conversations, and close care gaps. Enhance patient well-being, boost adherence, and unlock new revenue streams—all through one cohesive platform.',
   features: [
     {
       icon: faUserFriends,
@@ -40,23 +40,23 @@ const pageData = {
     },
     {
       icon: faVideo,
-      title: 'On‑Site & Telehealth Therapy',
-      description: 'Offer both in‑office and secure video‑based counseling sessions for individual and group therapy, ensuring accessibility and convenience for every patient.',
+      title: 'On-Site & Telehealth Therapy',
+      description: 'Offer both in-office and secure video-based counseling sessions for individual and group therapy, ensuring accessibility and convenience for every patient.',
     },
     {
       icon: faClipboardCheck,
-      title: 'Measurement‑Based Care',
-      description: 'Routine administration of validated scales (PHQ‑9, GAD‑7, etc.) with automated alerts for score changes that trigger timely interventions.',
+      title: 'Measurement-Based Care',
+      description: 'Routine administration of validated scales (PHQ-9, GAD-7, etc.) with automated alerts for score changes that trigger timely interventions.',
     },
     {
       icon: faBrain,
-      title: 'Digital Self‑Management Tools',
-      description: 'Interactive CBT modules, mindfulness exercises, and mood‑tracking journals empower patients to take an active role in their mental health between visits.',
+      title: 'Digital Self-Management Tools',
+      description: 'Interactive CBT modules, mindfulness exercises, and mood-tracking journals empower patients to take an active role in their mental health between visits.',
     },
     {
       icon: faHandshake,
-      title: 'Warm‑Hand‑Off Protocols',
-      description: 'Instant referrals and hand‑offs via in‑EHR triggers—no paper forms or phone calls—so patients never slip through the cracks when specialist care is needed.',
+      title: 'Warm-Hand-Off Protocols',
+      description: 'Instant referrals and hand-offs via in-EHR triggers—no paper forms or phone calls—so patients never slip through the cracks when specialist care is needed.',
     },
   ],
   benefits: [
@@ -66,7 +66,7 @@ const pageData = {
     },
     {
       title: 'Reduced Stigma & Barriers',
-      description: 'Embedding mental health in primary care normalizes seeking support, leading to higher patient engagement and lower no‑show rates.',
+      description: 'Embedding mental health in primary care normalizes seeking support, leading to higher patient engagement and lower no-show rates.',
     },
     {
       title: 'Enhanced Revenue Opportunities',
@@ -77,7 +77,7 @@ const pageData = {
       description: 'Shared care plans and automated documentation mean your team spends less time on administrative tasks and more on patient care.',
     },
     {
-      title: 'Data‑Driven Insights',
+      title: 'Data-Driven Insights',
       description: 'Dashboards track patient progress, utilization metrics, and financial performance—helping you refine your behavioral health services over time.',
     },
   ],
@@ -85,7 +85,7 @@ const pageData = {
   howItWorks: [
     {
       title: 'Routine Screening',
-      description: 'Integrate behavioral health questionnaires into every well‑visit or chronic care appointment; high scores trigger immediate referrals.',
+      description: 'Integrate behavioral health questionnaires into every well-visit or chronic care appointment; high scores trigger immediate referrals.',
     },
     {
       title: 'Dedicated Care Manager Assignment',
@@ -93,15 +93,15 @@ const pageData = {
     },
     {
       title: 'Collaborative Treatment Planning',
-      description: 'Weekly team huddles bring together your PCPs, therapists, and psychiatrists to review high‑risk cases and adjust care plans.',
+      description: 'Weekly team huddles bring together your PCPs, therapists, and psychiatrists to review high-risk cases and adjust care plans.',
     },
     {
       title: 'Ongoing Patient Engagement',
-      description: 'Between visits, patients receive automated check‑ins, self‑help resources, and appointment reminders via our portal or mobile app.',
+      description: 'Between visits, patients receive automated check-ins, self-help resources, and appointment reminders via our portal or mobile app.',
     },
     {
       title: 'Outcome Measurement & Reporting',
-      description: 'Monthly reports summarize changes in PHQ‑9/GAD‑7 scores, session attendance, and care plan milestones—providing clear ROI metrics.',
+      description: 'Monthly reports summarize changes in PHQ-9/GAD-7 scores, session attendance, and care plan milestones—providing clear ROI metrics.',
     },
   ],
   faq: [
@@ -111,17 +111,17 @@ const pageData = {
     },
     {
       question: 'How do you protect patient privacy?',
-      answer: 'All communications and data exchanges use HIPAA‑compliant encryption. Behavioral health notes are integrated into the EHR with role‑based access controls.',
+      answer: 'All communications and data exchanges use HIPAA-compliant encryption. Behavioral health notes are integrated into the EHR with role-based access controls.',
     },
     {
       question: 'What training is required for our staff?',
-      answer: 'We provide on‑site or virtual training for care managers and providers, covering workflows, screening tools, and the collaborative care model—typically completed in one half‑day session.',
+      answer: 'We provide on-site or virtual training for care managers and providers, covering workflows, screening tools, and the collaborative care model—typically completed in one half-day session.',
     },
   ],
   cta: {
     headline: 'Ready to integrate behavioral health into your practice and elevate patient care?',
     buttonText: 'Start the Conversation',
-    contact: '(800) 123‑4567 | behavioral@yourdomain.com',
+    contact: '(800) 123-4567 | behavioral@yourdomain.com',
   },
 };
 

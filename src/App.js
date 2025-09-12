@@ -16,9 +16,6 @@ import ThirdPartyAdmin from './pages/WhoWeHelp/ThirdPartyAdmin';
 import CaseManagementGroups from './pages/WhoWeHelp/CaseManagementGroups';
 
 // Add these imports if the components exist
-import AdminLogin from './pages/AdminLogin';
-import AdminProtectedRoute from './components/AdminProtectedRoute';
-import AdminDashboard from './pages/AdminDashboard';
 import ContactSection from './components/ContactSection';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
@@ -52,16 +49,6 @@ function App() {
           <Route path="/who-we-help/third-party-administrator" element={<ThirdPartyAdmin />} />
           <Route path="/who-we-help/case-management-groups" element={<CaseManagementGroups />} />
           <Route path="/contact" element={<ContactSection />} />
-          {/* your existing routes */}
-          <Route path="/admin" element={<AdminLogin />} />
-          <Route
-            path="/admin-dashboard"
-            element={
-              <AdminProtectedRoute>
-                <AdminDashboard />
-              </AdminProtectedRoute>
-            }
-          />
         </Routes>
         <Footer />
       </div>

@@ -2,12 +2,12 @@ import '../WhoWeHelp/Insurance.css';
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import InsuranceHero from "../WhoWeHelp/WWHImages/Insurance.jpg";// Replace with your actual image path
+import InsuranceHero from "../WhoWeHelp/WWHImages/Insurance.jpg";
 import ImproveCashflowImg from "../WhoWeHelp/WWHImages/revenue.jpg";
 import HowItWorksImg1 from "../WhoWeHelp/WWHImages/how1.jpg";
 import HowItWorksImg2 from "../WhoWeHelp/WWHImages/how2.jpg";
 import HowItWorksImg3 from "../WhoWeHelp/WWHImages/how3.jpg";
-import TestimonialPhoto from "../WhoWeHelp/WWHImages/Doctor.jpg"; // Replace with your actual image path
+import TestimonialPhoto from "../WhoWeHelp/WWHImages/Doctor.jpg";
 
 const howItWorksSteps = [
   {

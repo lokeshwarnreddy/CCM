@@ -31,7 +31,7 @@ const pageData = {
       text: 'Our platform integrates seamlessly with your existing EHR, providing you with a holistic view of your patients\' health. With real-time data and actionable insights, you can identify at-risk patients, intervene earlier, and deliver more effective, data-driven care.'
     }
   ],
-  intro: <strong>Our CCM program pairs your care team with a dedicated clinical support staff <br/>and integrated technology platform. Between office visits, we monitor vital signs, coach patients on self‑management, and automate the documentation that powers Medicare reimbursements. Let us help you close gaps in care, reduce unnecessary hospitalizations, and deliver a truly patient‑centered experience.</strong>,
+  intro: <strong>Our CCM program pairs your care team with a dedicated clinical support staff <br/>and integrated technology platform. Between office visits, we monitor vital signs, coach patients on self-management, and automate the documentation that powers Medicare reimbursements. Let us help you close gaps in care, reduce unnecessary hospitalizations, and deliver a truly patient-centered experience.</strong>,
   features: [
     {
       icon: faUsers,
@@ -41,40 +41,40 @@ const pageData = {
     {
       icon: faSyncAlt,
       title: <strong>Seamless EHR Integration</strong>,
-      description: 'Bi‑directional data syncing with your existing electronic health record eliminates duplicate charting. All progress notes, medication lists, and lab results flow automatically into your system, so your staff only ever works in one place.',
+      description: 'Bi-directional data syncing with your existing electronic health record eliminates duplicate charting. All progress notes, medication lists, and lab results flow automatically into your system, so your staff only ever works in one place.',
     },
     {
       icon: faFileInvoiceDollar,
       title: <strong>Automated Documentation & Billing</strong>,
-      description: 'Every patient interaction is time‑stamped and captured in billing‑ready progress notes. At the end of each 30‑day CCM window, we generate a compliance‑checked summary that meets CMS requirements—so you maximize reimbursement without extra back‑office effort.',
+      description: 'Every patient interaction is time-stamped and captured in billing-ready progress notes. At the end of each 30-day CCM window, we generate a compliance-checked summary that meets CMS requirements—so you maximize reimbursement without extra back-office effort.',
     },
     {
       icon: faMobileAlt,
       title: <strong>Patient Engagement Portal</strong>,
-      description: 'Through our secure mobile and web app, patients log symptoms, medications, and device readings on their own schedule. Two‑way messaging and educational modules keep them engaged and empowered between calls.',
+      description: 'Through our secure mobile and web app, patients log symptoms, medications, and device readings on their own schedule. Two-way messaging and educational modules keep them engaged and empowered between calls.',
     },
     {
       icon: faBell,
-      title: <strong>Real‑Time Alerts & Compliance Flags</strong>,
-      description: 'Customizable thresholds trigger instant alerts for missed check‑ins, abnormal readings, or patient‑reported red‑flags. Your care team sees these alerts on a unified dashboard—so clinical issues are caught and documented immediately.',
+      title: <strong>Real-Time Alerts & Compliance Flags</strong>,
+      description: 'Customizable thresholds trigger instant alerts for missed check-ins, abnormal readings, or patient-reported red-flags. Your care team sees these alerts on a unified dashboard—so clinical issues are caught and documented immediately.',
     },
   ],
   benefits: [
     {
       title: <strong>Improved Clinical Outcomes</strong>,
-      description: 'Patients in our CCM program experience up to a 40% reduction in 30‑day hospital readmissions, thanks to early intervention on warning signs.',
+      description: 'Patients in our CCM program experience up to a 40% reduction in 30-day hospital readmissions, thanks to early intervention on warning signs.',
     },
     {
       title: <strong>Maximized Revenue Capture</strong>,
-      description: 'Automated workflows and pre‑built CMS‑compliant notes mean you never leave reimbursement on the table—clients report recovering 100% of eligible CCM fees.',
+      description: 'Automated workflows and pre-built CMS-compliant notes mean you never leave reimbursement on the table—clients report recovering 100% of eligible CCM fees.',
     },
     {
       title: <strong>Enhanced Practice Efficiency</strong>,
-      description: 'Offload routine outreach and documentation to our care coordinators. Your nurses and physicians can focus on high‑acuity patients and in‑office visits.',
+      description: 'Offload routine outreach and documentation to our care coordinators. Your nurses and physicians can focus on high-acuity patients and in-office visits.',
     },
     {
       title: <strong>Cost Effective <br />Growth</strong>,
-      description: 'Easily expand your program to support dozens or hundreds of patients without hiring additional headcount. Our flat‑fee model keeps your costs predictable as your program grows.',
+      description: 'Easily expand your program to support dozens or hundreds of patients without hiring additional headcount. Our flat-fee model keeps your costs predictable as your program grows.',
     },
     {
       title: <strong>Actionable Population Insights</strong>,
@@ -97,11 +97,11 @@ const pageData = {
     },
     {
       title: <strong>Structured Outreach</strong>,
-      description: 'Weekly check‑ins by phone or secure messaging ensure every patient touchpoint is documented. Any clinical concerns are triaged in real time and routed back to your providers.',
+      description: 'Weekly check-ins by phone or secure messaging ensure every patient touchpoint is documented. Any clinical concerns are triaged in real time and routed back to your providers.',
     },
     {
-      title: <strong>Month‑End Close‑Out</strong>,
-      description: 'At each 30‑day interval, we compile time‑stamped notes, call logs, and compliance checklists into a CMS‑ready summary. Simply review, approve, and submit—no manual paperwork required.',
+      title: <strong>Month-End Close-Out</strong>,
+      description: 'At each 30-day interval, we compile time-stamped notes, call logs, and compliance checklists into a CMS-ready summary. Simply review, approve, and submit—no manual paperwork required.',
     },
   ],
   faq: [
@@ -111,7 +111,7 @@ const pageData = {
     },
     {
       question: <strong>How quickly can we launch?</strong>,
-      answer: 'Most practices go live in 10–14 days. Our implementation team handles onboarding, training, and EHR setup—so you start seeing value almost immediately.',
+      answer: 'Most practices go live in 10-14 days. Our implementation team handles onboarding, training, and EHR setup—so you start seeing value almost immediately.',
     },
     {
       question: <strong>What kind of support is included?</strong>,
@@ -120,7 +120,7 @@ const pageData = {
   ],
   cta: {
     headline: <strong>Ready to see how CCM can transform your practice?</strong>,
-    // contact: '(800) 123‑4567 | ccm@yourdomain.com',
+    // contact: '(800) 123-4567 | ccm@yourdomain.com',
   },
 };
 

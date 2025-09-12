@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone, faCheck } from '@fortawesome/free-solid-svg-icons';
-import axios from 'axios'; // <-- Added Axios
 import '../styles/ContactSection.css';
 
 const ContactSection = () => {
@@ -25,22 +24,6 @@ const ContactSection = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    try {
-      await axios.post('http://localhost:5000/api/contact', formData); // <- Post to your backend
-      alert('Thank you! Your demo request has been submitted.');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        organization: '',
-        message: '',
-      });
-    } catch (error) {
-      console.error('Submission error:', error);
-      alert('Oops! Something went wrong. Please try again later.');
-    }
-    setLoading(false);
   };
 
   return (

@@ -39,27 +39,7 @@ const services = [
 ];
 
 const ServicesSection = () => {
-//   const [selectedService, setSelectedService] = useState(null);
 
-//   const handleCardClick = (service) => {
-//     setSelectedService(service);
-//   };
-
-//   const handleCloseModal = () => {
-//     setSelectedService(null);
-//   };
-
-//   const handleKnowMore = (link) => {
-//     window.location.href = link;
-//   };
-
-//   const handleCardHover = (index) => {
-//     // Add hover functionality if needed
-//   };
-
-//   const handleCardLeave = () => {
-//     // Add leave functionality if needed
-//   };
 
   return (
     <section className="services-section">
@@ -87,22 +67,6 @@ const ServicesSection = () => {
           ))}
         </div>
       </div>
-
-      {/* {selectedService && (
-        <div className="modal" onClick={handleCloseModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-button" onClick={handleCloseModal}>×</button>
-            <h3 className="modal-title">{selectedService.title}</h3>
-            <p className="modal-text">{selectedService.modalContent}</p>
-            <button
-              className="know-more-button"
-              onClick={() => handleKnowMore(selectedService.link)}
-            >
-              Know More
-            </button>
-          </div>
-        </div>
-      )} */}
     </section>
   );
 };

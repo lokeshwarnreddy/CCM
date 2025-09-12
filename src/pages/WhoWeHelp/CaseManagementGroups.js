@@ -2,12 +2,12 @@ import '../WhoWeHelp/CaseManagementGroups.css';
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import CaseManagementGroupsHero from "../WhoWeHelp/WWHImages/CaseManagement.jpg";// Replace with your actual image path
+import CaseManagementGroupsHero from "../WhoWeHelp/WWHImages/CaseManagement.jpg";
 import ImproveCashflowImg from "../WhoWeHelp/WWHImages/Staff.jpg";
 import HowItWorksImg1 from "../WhoWeHelp/WWHImages/how1.jpg";
 import HowItWorksImg2 from "../WhoWeHelp/WWHImages/how2.jpg";
 import HowItWorksImg3 from "../WhoWeHelp/WWHImages/how3.jpg";
-import TestimonialPhoto from "../WhoWeHelp/WWHImages/Doctor.jpg"; // Replace with your actual image path
+import TestimonialPhoto from "../WhoWeHelp/WWHImages/Doctor.jpg";
 
 const howItWorksSteps = [
   {
