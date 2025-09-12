@@ -18,9 +18,10 @@ const AdminLogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/admin-login', { username, password });
+      const res = await axios.post('http://localhost:5000/api/admin-login', { username, password }, { withCredentials: true });
       if (res.data.success) {
-        localStorage.setItem('admin-auth', 'true');
+        console.log('Login successful');
+        // No localStorage/sessionStorage for auth! Cookie is set by backend
         navigate('/admin-dashboard');
       } else {
         alert('Incorrect Username or Password');
