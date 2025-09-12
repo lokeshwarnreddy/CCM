@@ -1,0 +1,118 @@
+.admin-login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #eaf4fb 0%, #c9e7fa 100%);
+}
+
+.admin-login-disclaimer {
+  color: #888;
+  background: #fff;
+  border-radius: 0.7rem;
+  box-shadow: 0 2px 12px rgba(21, 57, 106, 0.07);
+  padding: 0.8rem 1.5rem;
+  margin-bottom: 2.2rem;
+  font-size: 1rem;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-login-box {
+  background: #fff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 32px rgba(21, 57, 106, 0.10);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-login-box h2 {
+  color: #15396a;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.admin-login-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.admin-login-box input[type="text"],
+.admin-login-box input[type="password"] {
+  padding: 0.9rem 1rem;
+  border: 1.5px solid #c9e7fa;
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  background: #f7fbff;
+  transition: border 0.2s, background 0.2s;
+  outline: none;
+  margin-bottom: 0;
+}
+
+.admin-login-box input[type="text"]:focus,
+.admin-login-box input[type="password"]:focus {
+  border: 1.5px solid #3c94e1;
+  background: #eaf4fb;
+}
+
+.admin-login-box button[type="submit"] {
+  background: linear-gradient(90deg, #3c94e1 0%, #15396a 100%);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0.9rem 0;
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(60, 148, 225, 0.10);
+}
+
+.admin-login-box button[type="submit"]:hover {
+  background: linear-gradient(90deg, #15396a 0%, #3c94e1 100%);
+  box-shadow: 0 4px 16px rgba(60, 148, 225, 0.15);
+}
+
+/* Add to your AdminLogin.css file */
+.admin-login-username {
+  margin-bottom: 1.2rem;
+  font-size: 1.08rem;
+  color: #15396a;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+  background: #eaf4fb;
+  padding: 0.7rem 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 1px 6px rgba(60, 148, 225, 0.08);
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.admin-login-username span:first-child {
+  font-size: 1rem;
+  color: #3c94e1;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.3px;
+}
+
+.admin-login-username-value {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #15396a;
+  font-size: 1.13rem;
+  background: #fff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 1px 4px rgba(60, 148, 225, 0.07);
+  margin-top: 0.1rem;
+}

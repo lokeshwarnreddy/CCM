@@ -1,0 +1,72 @@
+/* src/styles/ImageWithTextSection.css */
+
+.image-with-text-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 5rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.image-with-text-section.image-right {
+  grid-template-columns: 1fr 1fr;
+}
+
+.image-with-text-section.image-right .image-container {
+  order: 2;
+}
+
+.image-container1 {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  /* height: 100%; */
+}
+
+.image-container {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  max-width: 400px;
+  max-height: 300px;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.image-container1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 1.5rem;
+}
+
+.text-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .image-with-text-section {
+    grid-template-columns: 1fr;
+  }
+
+  .image-with-text-section.image-right .image-container {
+    order: 0;
+  }
+} 
