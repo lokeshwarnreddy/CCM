@@ -11,5 +11,16 @@ export default defineConfig({
   build: {
     outDir: 'build'
   },
-  publicDir: 'public'
+  publicDir: 'public',
+  esbuild: {
+    include: /\.(jsx?|tsx?)$/,
+    loader: 'jsx'
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx'
+      }
+    }
+  }
 })
