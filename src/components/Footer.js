@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="footer-content desktop-only">
             {/* Company Info */}
             <div className="footer-section">
-              <img src={`${process.env.PUBLIC_URL}/images/Logo.png`} alt="Chronic Care Bridge Logo" className="footer-logo" />
+              <img src="/images/Logo.png" alt="Chronic Care Bridge Logo" className="footer-logo" />
               <p className="company-description">
                 Transforming healthcare management through <br/>innovative solutions. We help healthcare providers <br/>deliver better patient care while optimizing their <br/>practice operations.
               </p>
@@ -60,13 +60,13 @@ const Footer = () => {
             </p> */}
             <div className="footer-logos">
               <a href="https://ecare-team-dev.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/ecare-10.png'} alt="Logo 3" className="footer-logo-img" />              
+                <img src="/images/ecare-10.png" alt="Logo 3" className="footer-logo-img" />              
               </a>
               <a href="https://georgetownihc.vercel.app" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/georgetownlogo-20.png'} alt="Logo 2" className="footer-logo-img" />
+                <img src="/images/georgetownlogo-20.png" alt="Logo 2" className="footer-logo-img" />
               </a>
               <a href="https://thaliya.ai" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/logo anarcare-3.png'} alt="Logo 1" className="footer-logo-img" />
+                <img src="/images/logo anarcare-3.png" alt="Logo 1" className="footer-logo-img" />
               </a>
             </div>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
 
       {/* Mobile Footer */}
       <div className="mobile-footer">
-        <img src={`${process.env.PUBLIC_URL}/images/Logo.png`} alt="Chronic Care Bridge Logo" className="footer-logo" />
+        <img src="/images/Logo.png" alt="Chronic Care Bridge Logo" className="footer-logo" />
         <div className="footer-bottom">
           <p>&copy; 2025 Chronic Care Bridge. All rights reserved.</p>
           <div className="footer-bottom-links">
@@ -94,13 +94,13 @@ const Footer = () => {
           </div>
             <div className="footer-logos">
               <a href="https://ecare-team-dev.netlify.app" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/ecare-10.png'} alt="Logo 3" className="footer-logo-img" />              
+                <img src="/images/ecare-10.png" alt="Logo 3" className="footer-logo-img" />              
               </a>
               <a href="https://georgetownihc.vercel.app" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/georgetownlogo-20.png'} alt="Logo 2" className="footer-logo-img" />
+                <img src="/images/georgetownlogo-20.png" alt="Logo 2" className="footer-logo-img" />
               </a>
               <a href="https://thaliya.ai" target="_blank" rel="noopener noreferrer">
-                <img src={process.env.PUBLIC_URL + '/images/logo anarcare-3.png'} alt="Logo 1" className="footer-logo-img" />
+                <img src="/images/logo anarcare-3.png" alt="Logo 1" className="footer-logo-img" />
               </a>
             </div>
         </div>
